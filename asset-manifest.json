@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Banner-App-Avito-/static/css/main.08dcfbb9.chunk.css",
+    "main.js": "/Banner-App-Avito-/static/js/main.acbcc832.chunk.js",
+    "main.js.map": "/Banner-App-Avito-/static/js/main.acbcc832.chunk.js.map",
+    "runtime-main.js": "/Banner-App-Avito-/static/js/runtime-main.47f06843.js",
+    "runtime-main.js.map": "/Banner-App-Avito-/static/js/runtime-main.47f06843.js.map",
+    "static/js/2.d20964ba.chunk.js": "/Banner-App-Avito-/static/js/2.d20964ba.chunk.js",
+    "static/js/2.d20964ba.chunk.js.map": "/Banner-App-Avito-/static/js/2.d20964ba.chunk.js.map",
+    "index.html": "/Banner-App-Avito-/index.html",
+    "static/css/main.08dcfbb9.chunk.css.map": "/Banner-App-Avito-/static/css/main.08dcfbb9.chunk.css.map",
+    "static/js/2.d20964ba.chunk.js.LICENSE.txt": "/Banner-App-Avito-/static/js/2.d20964ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47f06843.js",
+    "static/js/2.d20964ba.chunk.js",
+    "static/css/main.08dcfbb9.chunk.css",
+    "static/js/main.acbcc832.chunk.js"
+  ]
+}
