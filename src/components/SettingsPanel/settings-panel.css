@@ -1,0 +1,175 @@
+.settings-panel{
+    width: 15%;
+    height: 100%;
+    z-index: 90;
+    margin: 0;
+    font-size: 16px;
+    background-color: #FFFCFC;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #ddd2d2;
+    opacity: 0;
+    transition: .55s opacity, .55s visibility;
+    visibility: hidden;
+}
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+.settings-panel__hs{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #938B8B;
+}
+.size-params{
+    font-size: 14px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #938B8B;
+}
+.angle-block img{
+    height: 12px;
+    width: 17px;
+}
+.angle-params{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.width-height-params input{
+    background-color: inherit;
+    width: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+.width-height-params{
+    margin-top: 20px;
+    text-align: center;
+}
+.angle-value{
+    background-color: inherit;
+    width: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+.width-value:hover{
+    background-color: #dbd6d6;
+}
+.height-value:hover{
+    background-color: #dbd6d6;
+}
+.angle-value:hover{
+    background-color: #dbd6d6;
+}
+.settings-color{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.color-picker{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.color-picker:hover{
+    cursor: pointer;
+    filter: drop-shadow(10px 0px 4px rgb(168, 255, 243));
+}
+.color-picker-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    width: 100%;
+    border-bottom: 1px solid #938B8B; 
+}
+.color-params{
+    font-size: 14px;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0;
+    border-bottom: 2px solid #938B8B;
+}
+.color-params:hover{
+    background-color: #dbd6d6;
+}
+.font-style-form{
+    outline: none;
+    border: none;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    width: 70%;
+    text-overflow: ellipsis;
+}
+.font-style-block{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.font-style-form:hover{
+    background-color: #dbd6d6;
+}
+.font-style-option{
+    outline: none;
+    border: none;
+}
+.text-params{
+    font-size: 14px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #938B8B;
+    text-align: center;
+}
+.text-value{
+    background-color: inherit;
+    width: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+.text-value:hover{
+    background-color: #dbd6d6;
+}
+.background-params{
+    font-size: 14px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #938B8B;
+    text-align: center;
+}
+.background-repeat-block{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.repeat-style-form{
+    outline: none;
+    border: none;
+    text-align: center;
+    text-overflow: ellipsis;
+    width: 45%;
+}
+.repeat-style-form:hover{
+    background-color: #dbd6d6;
+}
+
+
